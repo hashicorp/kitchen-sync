@@ -6,11 +6,11 @@ require 'kitchen-sync/version'
 Gem::Specification.new do |spec|
   spec.name          = 'kitchen-sync'
   spec.version       = KitchenSync::VERSION
-  spec.authors       = ['Noah Kantrowitz']
-  spec.email         = ['noah@coderanger.net']
-  spec.description   = %q{Improved file transfers for for test-kitchen}
+  spec.authors       = ['Dan Slimmon']
+  spec.email         = ['dslimmon@hashicorp.com']
+  spec.description   = %q{Hashicorp-forked kitchen-sync transport for kitchen}
   spec.summary       = spec.description
-  spec.homepage      = 'https://github.com/coderanger/kitchen-sync'
+  spec.homepage      = 'https://github.com/hashicorp/kitchen-sync'
   spec.license       = 'Apache 2.0'
 
   spec.files         = `git ls-files`.split($/)
